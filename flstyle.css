@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  background-color: #0d0202;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  height: 5rem;
+  margin-top: 1.875rem;
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
+  background-color: white;
+  align-items: center;
+  border-radius: 5rem;
+}
+
+header img {
+  margin-left: 1rem;
+}
+
+.navegacao {
+  display: flex;
+  width: 100%;
+  gap: 1.25rem;
+  justify-content: end;
+  margin-right: 1rem;
+  place-items: center;
+}
+
+.btn_sobre {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #979797;
+  color: #0d0202;
+  font-size: 1.5rem;
+  padding: 0.3125rem 1rem;
+  border-radius: 40rem;
+  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.25);
+  font-family: sans-serif;
+}
+
+.btn_projeto {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(to bottom, #e14c4c, #c92626);
+  color: #0d0202;
+  font-size: 1.5rem;
+  padding: 0.3125rem 1rem;
+  border-radius: 40rem;
+  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.25);
+  font-family: sans-serif;
+}
+
+.apresentacao {
+  color: white;
+  text-align: center;
+  margin: 3.125rem auto;
+  line-height: 1.4625rem;
+  width: 44.6875rem;
+  font-size: 1.125rem;
+  font-family: sans-serif;
+}
+
+.img-local {
+  width: 31.25rem;
+  height: 31.25rem;
+  background-image: linear-gradient(to bottom, #e14c4c, #c92626);
+  border-radius: 2.5rem;
+}
+
+.conteudo-principal {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+.conteudo-principal p {
+  color: white;
+  line-height: 1.4625rem;
+  font-size: 1.125rem;
+  width: 31.25rem;
+  height: 31.25rem;
+  font-family: sans-serif;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  margin: 6.25rem auto 1.25rem auto;
+  font-size: 0.875rem;
+}
